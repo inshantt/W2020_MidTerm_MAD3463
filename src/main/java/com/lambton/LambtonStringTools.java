@@ -15,8 +15,9 @@ public class LambtonStringTools
     public static String reverse(String s)
     {
         char ch[] = s.toCharArray();
-        String rev = "";
-        for (int i = ch.length - 1; i >= 0; i--) {
+        String rev = " ";
+        for (int i = ch.length - 1; i >= 0; i--)
+        {
             rev += ch[i];
         }
         return rev;
