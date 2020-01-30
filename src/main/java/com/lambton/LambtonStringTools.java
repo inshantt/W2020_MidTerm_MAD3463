@@ -68,7 +68,7 @@ public class LambtonStringTools
     {
         int decimal=0;
 
-        decimal = Integer.parseInt(s, 2);
+        decimal = Integer.parseInt(s, 2); //binarytodec
 
         return decimal;
 
