@@ -47,7 +47,7 @@ public class LambtonStringTools
 
         int ccount = 256;
         int[] count = new int[ccount];
-        int i;  //used in loops
+        int i;  //usedinloops
         for (i = 0; i < s.length(); i++)
             (count[s.charAt(i)])++;
         int mostFrequently = 0;
