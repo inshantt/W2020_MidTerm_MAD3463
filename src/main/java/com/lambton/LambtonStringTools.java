@@ -50,13 +50,13 @@ public class LambtonStringTools
     public static char mostFrequent(String s)
     {
 
-        int ccount = 256;
-        int[] count = new int[ccount];
+        int charcount = 256;
+        int[] count = new int[charcount];
         int i;  //loops
         for (i = 0; i < s.length(); i++)
             (count[s.charAt(i)])++;
         int mostFrequently = 0;
-        for (i = 0; i < ccount; i++) {
+        for (i = 0; i < charcount; i++) {
             if (count[i] > count[mostFrequently]) {
                 mostFrequently = i;
             } else if (count[i] == count[mostFrequently]) {
