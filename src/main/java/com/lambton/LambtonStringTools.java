@@ -85,7 +85,7 @@ public class LambtonStringTools
         newString = newString.toLowerCase();
         if (originalString.contains(findString)) {
             originalString = originalString.replace(findString, newString);
-            return originalString;
+            return originalString; //returningtooriginalstring
         } else
             return "String doesn't contain matched pattern";
     }
