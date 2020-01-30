@@ -24,7 +24,7 @@ public class LambtonStringTools
 
         }
         else{   //else condi
-            rev="Output"+rev;
+            rev="null"+rev;
         }
         return rev;
     }
