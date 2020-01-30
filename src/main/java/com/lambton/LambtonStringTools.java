@@ -16,6 +16,7 @@ public class LambtonStringTools
     {
         char ch[] = s.toCharArray();
         String rev = " ";
+
         for (int i = ch.length - 1; i >= 0; i--)
         {
             rev += ch[i];
@@ -27,8 +28,17 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
-
-        return null;
+        String[] words = s.split("\\s+");
+        int i = 0;
+        String cap = "";
+        if (words.length == 3) {
+            cap = words[0].substring(0, 1).toUpperCase() + ". "
+                    + words[1].substring(0, 1).toUpperCase() + ". "
+                    + words[2].substring(0, 1).toUpperCase() + words[2].substring(1).toLowerCase();
+        } else {
+            cap = null;
+        }
+        return cap;
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
