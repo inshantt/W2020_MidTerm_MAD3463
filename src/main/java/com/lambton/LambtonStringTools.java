@@ -23,7 +23,7 @@ public class LambtonStringTools
 
 
         }
-        else{   //else cond
+        else{   //else condi
             rev="Output"+rev;
         }
         return rev;
