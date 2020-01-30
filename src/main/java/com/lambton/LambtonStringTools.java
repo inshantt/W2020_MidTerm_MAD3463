@@ -66,12 +66,17 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s)
     {
-       return 0;
+        int decimal=0;
+
+        decimal = Integer.parseInt(s, 2);
+
+        return decimal;
+
+
     }
 
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString)
     {
-        return null;
-    }
+
 }
