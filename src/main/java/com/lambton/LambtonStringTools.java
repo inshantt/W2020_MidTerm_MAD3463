@@ -81,8 +81,8 @@ public class LambtonStringTools
     public static String replaceSubString(String originalString, String findString, String newString)
     {
         originalString= originalString.toLowerCase();
-        findString = findString.toLowerCase();
-        newString = newString.toLowerCase();
+        findString = findString.toLowerCase(); //easy to commit
+        newString = newString.toLowerCase(); //new string
         if (originalString.contains(findString)) {
             originalString = originalString.replace(findString, newString);
             return originalString; //returningtooriginalstring
